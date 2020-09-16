@@ -1,9 +1,17 @@
 body{
-	background-color: #E0E0E0;
+	background-color: #566573;
 }
-p{
-	color: green;
+div.mainInfo{
+	background-color: #85929e;
 }
-h2{
-	color: aqua;
+h1{
+	text-align: center;
+	color: #4a235a;
 }
+p.ajpi{
+	text-align: justify;
+}
+p.Dynamap{
+	text-align: right;
+}
+
