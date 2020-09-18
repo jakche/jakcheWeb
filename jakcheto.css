@@ -37,14 +37,23 @@ a:hover{
 
 footer{
 	background-color: #f0e9f5;
-	text-align: center;
-	position: fixed;
+	position: absolute;
+	text-align: center;	
 	bottom: 0;
 	width: 100%;
 	height: 100px;
+	overflow: hidden;
 }
 p{
 	font-size: 24px;
 	color: #C70039;
 	margin-bottom: 80px;
+}
+html{
+	position: relative;
+	min-height: 100%
+}
+h3{
+	font-family: 'Glegoo', serif;
+	
 }
