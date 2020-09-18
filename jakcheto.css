@@ -36,11 +36,12 @@ a:hover{
 }
 
 footer{
-	background-color: white;
+	background-color: #f0e9f5;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
+	height: 100px;
 }
 p{
 	font-size: 24px;
