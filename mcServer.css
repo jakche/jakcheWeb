@@ -43,13 +43,6 @@ p.serverStatus{
 	border-radius: 5px;
 	bottom: 15px;
 }
-p.contact{
-	font-size: 22px;
-	font-family: 'Roboto', sans-serif;
-	margin-left: 20px;
-	margin-top: 40px;
-	position: relative;
-}
 a:link {
 	color: #32a1f3;
 	background-color: transparent;
