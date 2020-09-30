@@ -1,62 +1,38 @@
 body{
-	background-color: #f3aeeb;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 20px;
-	line-height: 20px;
+	background-color: #e56c91;
 }
-img{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 80px;
+img.logoto{
+	margin-left: 30px;
+	margin-top: 80px;
+	display: block;	
+	max-height: 150px;
+	max-width: 150px;
 }
+div.about{
+	background-color: #62dce4;
+	border-radius: 6px;
+	max-width: 900px;
+	opacity: 80;
+}
+h1{
+	font-family: 'Glegoo';
+	font-size: 28px;
+	margin-top: 78px;
+	text-align: center;
 
-h1, h2{
-	font-family: 'Glegoo', serif;
-
 }
-
-main{
-	max-width: 800px;
-	margin: 0 auto;
+p.kontakt1{
+	font-size: 'Glegoo';
+	font-size: 18px;
+	margin-top: 420px;
+	margin-left: 28px;
 }
-main img{
-	max-width: 100%;
-}
-h2{
-	font-size: 35px;
-}
-a{
-	color: #000000;
-}
-a:hover{
-	color: #66ff66;
-}
-
-footer{
-	background-color: #f0e9f5;
-	position: absolute;
-	text-align: center;	
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	overflow: hidden;
-}
-p{
-	font-size: 24px;
-	color: #C70039;
-	margin-bottom: 80px;
-}
-html{
-	position: relative;
-	min-height: 100%
-}
-h3{
-	font-family: 'Glegoo', serif;
-}
-h4{
-	font-family: 'Glegoo' serif;
-	
+img.kontakt2{
+	max-height: 100px;
+	max-height: 100px;
+	opacity: 1;
+ 	 display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
