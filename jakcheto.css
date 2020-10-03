@@ -12,6 +12,7 @@ div.about{
 	border-radius: 6px;
 	max-width: 700px;
 	opacity: 80;
+	margin: 0 auto;
 }
 h1{
 	font-family: 'Glegoo';
@@ -27,9 +28,11 @@ img.kontakt2{
 	opacity: 1;
  	display: block;
   	height: auto;
- 	transition: .5s ease;
-  	backface-visibility: hidden;
+ 	transition: .5s ease;  	
   	filter: blur(4px);
+  	position: fixed;
+  	bottom: 0px;
+  	margin: 0 auto;
 }
 img.kontakt2:hover{
 	filter: blur(0px);
