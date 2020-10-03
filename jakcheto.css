@@ -1,12 +1,11 @@
 body{
-	background-color: #e56c91;
+	background-color: #def4f5;
 }
 img.logoto{
-	margin-left: 30px;
-	margin-top: 80px;
+	margin-left: 0px;
 	display: block;	
-	max-height: 150px;
-	max-width: 150px;
+	max-height: 170px;
+	max-width: 170px;
 }
 div.about{
 	background-color: #62dce4;
