@@ -10,28 +10,27 @@ img.logoto{
 div.about{
 	background-color: #62dce4;
 	border-radius: 6px;
-	max-width: 900px;
+	max-width: 700px;
 	opacity: 80;
 }
 h1{
 	font-family: 'Glegoo';
 	font-size: 28px;
-	margin-top: 78px;
+	margin-top: 128px;
 	text-align: center;
 
-}
-p.kontakt1{
-	font-size: 'Glegoo';
-	font-size: 18px;
-	margin-top: 420px;
-	margin-left: 28px;
 }
 img.kontakt2{
 	max-height: 100px;
 	max-height: 100px;
+	margin-top: 420px;
 	opacity: 1;
- 	 display: block;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+ 	display: block;
+  	height: auto;
+ 	transition: .5s ease;
+  	backface-visibility: hidden;
+  	filter: blur(4px);
+}
+img.kontakt2:hover{
+	filter: blur(0px);
 }
